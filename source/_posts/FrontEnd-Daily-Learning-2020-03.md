@@ -13,6 +13,11 @@ tags: FE
 🤦‍♀️ 新的一月，新的打气。希望自己这个月能多记笔记。
 
 预告：上传下载
+正则专题
+
+#### 2020/03/18
+今日阅读：[Center flex items with one at the end of the row](https://stackoverflow.com/questions/35250367/center-flex-items-with-one-at-the-end-of-the-row)
+在 flex 容器中，如果我们需要从左到右排列 items ，但最后一个 item 需要靠右（例如实现一个 Header ，avatar 需要靠右），可以在此 item 上加上 CSS 属性 `margin-left: auto` 。更详细的解释可以参考 StackOverflow 上这个[答案](https://stackoverflow.com/questions/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties/33856609#33856609) 。
 
 #### 2020/03/10
 [prettier](https://prettier.io/docs/en/) 可用于格式化特定文件格式的代码，可与很多 pre-commit 工具配合使用，在提交 commit 之前自动格式化你通过 `git add` 加入暂存区的代码。
